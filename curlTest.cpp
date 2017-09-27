@@ -12,7 +12,7 @@ if (curl) {
     headers = curl_slist_append(headers, "Content-Type: application/json");
 
     curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers); 
-    curl_easy_setopt(curl, CURLOPT_URL,"115.112.92.32" );  
+    curl_easy_setopt(curl, CURLOPT_URL,"115.x.x.x" );  
     curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "PUT"); /* !!! */
 
     curl_easy_setopt(curl, CURLOPT_POSTFIELDS, json_struct); /* data goes here */
